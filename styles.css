@@ -1,0 +1,11 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  #navbar{
+    position: fixed;
+      display: flex;
+      border-bottom:  solid 1px blue;
+  }
+  
