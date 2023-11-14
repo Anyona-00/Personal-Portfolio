@@ -3,6 +3,11 @@
       scroll-behavior: smooth;
     }
   }
+
+  body{
+    background-color: black;
+
+  }
   
   #navbar{
     width: 100%;
@@ -12,7 +17,8 @@
       background-color: black;
       color: white;
       align-items: center;
-      border-radius: 10px;
+      border-bottom: 5px solid gray;
+
   }
 
 
@@ -35,10 +41,47 @@ color: rgb(255, 255, 255);
   }
 
 
- a:hover{
-   background-color: gray;
-   height: 4rem;
-  }
+ 
+
+
+#Contacts{
+  background-color: gray;
+  width: 4.5rem;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+#welcome-section {
+  background-image: url('https://cdn.pixabay.com/photo/2016/10/15/15/17/digital-1742679_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: minmax(150px, auto);
+  color: rgb(5, 5, 5);
+  grid-row-gap: 3rem;
+  margin-bottom: 1.5rem;
+  padding: 20px; /* Added padding for better visualization */
+}
+
+/* Additional styles to ensure the image covers the entire container */
+#welcome-section::before {
+  content: "";
+  grid-area: 1 / 1 / 2 / 2; /* Full span */
+  background-image: inherit;
+  background-size: inherit;
+  background-position: inherit;
+  background-repeat: inherit;
+  z-index: -1; /* Place it behind the content */
+}
+
+/* Your other styling for text content */
 
 
 
@@ -49,15 +92,21 @@ color: rgb(255, 255, 255);
 
 
 
-  #welcome-section{
-    background-color: aqua;
-    display: grid;
-    grid-template-columns: auto;
-    grid-row: minmax(150px, auto);
-    color:rgb(5, 5, 5);
-    grid-row-gap: 3rem;
-margin-bottom: 1.5rem;
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -80,5 +129,8 @@ margin-bottom: 1.5rem;
   #p3 {
     background-color: aquamarine;
   }
+
+
+
   
   
