@@ -38,6 +38,47 @@ color: rgb(255, 255, 255);
  a:hover{
    background-color: gray;
    height: 4rem;
-  
   }
+
+
+
+
+
+
+
+
+
+
+  #welcome-section{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: auto;
+    grid-row: minmax(150px, auto);
+    color:rgb(5, 5, 5);
+    grid-row-gap: 3rem;
+margin-bottom: 1.5rem;
+  }
+
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto; 
+    gap: 20px;
+    grid-auto-rows: minmax(150px, auto);
+     
+  }
+  
+  .details1,
+  .details2,
+  .details3 {
+   background-color: aqua;
+  }
+  
+  #p1,
+  #p2,
+  #p3 {
+    background-color: aquamarine;
+  }
+  
   
