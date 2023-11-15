@@ -6,7 +6,7 @@
 
   body{
     display: grid;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
   }
@@ -59,18 +59,23 @@ color: rgb(255, 255, 255);
 
 
 #welcome-section {
-  background-image: url('https://cdn.pixabay.com/photo/2016/10/15/15/17/digital-1742679_1280.jpg');
+  background-image: url('https://wallpaperaccess.com/full/4230797.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: minmax(150px, auto);
+  grid-template-rows: minmax(30rem, auto);
   color: rgb(5, 5, 5);
   grid-row-gap: 3rem;
   margin-bottom: 1.5rem;
   padding: 20px; 
+  color: rgb(255, 255, 255);
+  align-items: center;
+  font-size: large;
 }
+
+
 
 
 
@@ -102,7 +107,7 @@ color: rgb(255, 255, 255);
 
   .grid-container {
     display: grid;
-    grid-template-columns: auto auto; 
+    grid-template-columns: 29.375rem 29.375rem; 
     gap: 20px;
     grid-auto-rows: minmax(150px, auto);
      
@@ -111,19 +116,33 @@ color: rgb(255, 255, 255);
   .details1,
   .details2,
   .details3 {
-   background-color: aqua;
+   background: linear-gradient(to top, rgb(129, 128, 128), rgb(0, 0, 0));
+   color: white;
+  font-style: italic;
+  
+  
   }
   
   #p1,
   #p2,
   #p3 {
-    background-color: aquamarine;
+    border-radius: 10px;
+    
+
+
+
   }
 
 
 
   
-  
+  .project-tile{
+    color: white;
+    display: grid;
+    justify-content: center;
+    margin: 2rem;
+    font-size: xx-large;
+  }
 
 
 
@@ -138,6 +157,8 @@ color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-large;
+    display: grid;
+    justify-content: center;
     
     
   }
@@ -148,8 +169,19 @@ color: rgb(255, 255, 255);
   border-radius: 10px;
   border: 5px solid gray;
   cursor: pointer;
-  
-  
-
+ width: 30%;
+  background-color: gray;
+ margin-top: 2rem;
+  border-radius: 10px;
+text-decoration: none;
+display: grid;
+justify-content: center;
   
 }
+
+
+#Explore{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
