@@ -43,18 +43,11 @@ color: rgb(255, 255, 255);
   }
 
 
- 
-
-
 #Contacts{
   background-color: gray;
   width: 4.5rem;
   border-radius: 10px;
 }
-
-
-
-
 
 
 
@@ -74,36 +67,6 @@ color: rgb(255, 255, 255);
   align-items: center;
   font-size: large;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   .grid-container {
     display: grid;
@@ -128,14 +91,8 @@ color: rgb(255, 255, 255);
   #p3 {
     border-radius: 10px;
     
-
-
-
   }
 
-
-
-  
   .project-tile{
     color: white;
     display: grid;
@@ -143,14 +100,6 @@ color: rgb(255, 255, 255);
     margin: 2rem;
     font-size: xx-large;
   }
-
-
-
-
-
-
-
-
 
   #profile-link {
     color: white;
