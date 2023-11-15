@@ -53,11 +53,6 @@ color: rgb(255, 255, 255);
 }
 
 
-
-
-
-
-
 #welcome-section {
   background-image: url('https://wallpaperaccess.com/full/4230797.jpg');
   background-size: cover;
@@ -74,35 +69,6 @@ color: rgb(255, 255, 255);
   align-items: center;
   font-size: large;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   .grid-container {
@@ -143,13 +109,6 @@ color: rgb(255, 255, 255);
     margin: 2rem;
     font-size: xx-large;
   }
-
-
-
-
-
-
-
 
 
   #profile-link {
