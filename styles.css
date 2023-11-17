@@ -50,10 +50,7 @@ color: rgb(255, 255, 255);
 }
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> dd8e638b50c311398a949d6ec5873f1bf4dd4658
 #welcome-section {
   background-image: url('https://wallpaperaccess.com/full/4230797.jpg');
   background-size: cover;
@@ -71,10 +68,8 @@ color: rgb(255, 255, 255);
   font-size: large;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> dd8e638b50c311398a949d6ec5873f1bf4dd4658
+
   .grid-container {
     display: grid;
     grid-template-columns: 29.375rem 29.375rem; 
@@ -108,10 +103,9 @@ color: rgb(255, 255, 255);
     font-size: xx-large;
   }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> dd8e638b50c311398a949d6ec5873f1bf4dd4658
+
+
   #profile-link {
     color: white;
     text-decoration: none;
