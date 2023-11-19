@@ -145,9 +145,40 @@ color: rgb(255, 255, 255);
 
 @media (max-width:600px) {
 
-  body{
-    
+ #welcome-section{
+  align-items: center;
+
+  width: 60%;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
   }
-  
+
+
+  .grid-container{
+    grid-template-columns: 1fr;
+    grid-gap: 70px;
+    align-items: center;
+    justify-items: center;
+
+  }
+
+  .details1,
+  .details2,
+  .details3 {
+    width: 67%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+ /* #p1,
+  #p2,
+  #p3 {
+    width: 10%;
+    margin-right: auto;
+    margin-left: auto;
+ 
+}*/
 }
+
 
