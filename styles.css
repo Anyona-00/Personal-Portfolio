@@ -10,6 +10,25 @@
     justify-content: center;
     align-items: center;
   }
+
+
+  .toggle-button{
+    width: 28px;
+    height: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    display: none;
+  }
+
+  span{
+    width: 98%;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+  }
   
   #navbar{
     width: 100%;
@@ -86,7 +105,10 @@ color: rgb(255, 255, 255);
   font-style: italic;
   
   
+  
   }
+
+  
   
   #p1,
   #p2,
@@ -167,8 +189,28 @@ color: rgb(255, 255, 255);
   .details2,
   .details3 {
     width: 67%;
+  
     margin-right: auto;
     margin-left: auto;
+  }
+
+
+
+ 
+
+  .toggle-button{
+  display: flex;  }
+
+
+  .nav-link{
+    display: none;
+
+  }
+
+
+  #navbar{
+    width: 80%;
+    margin: 0 auto;
   }
 
  /* #p1,
