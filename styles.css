@@ -11,7 +11,7 @@
     align-items: center;
   }
 
-
+/*navbar*/
   .toggle-button{
     width: 28px;
     height: 31px;
@@ -68,7 +68,7 @@ color: rgb(255, 255, 255);
   border-radius: 10px;
 }
 
-
+/*welcome-section*/
 
 #welcome-section {
   background-image: url('https://wallpaperaccess.com/full/4230797.jpg');
@@ -88,6 +88,7 @@ color: rgb(255, 255, 255);
 }
 
 
+/*Projects*/
 
   .grid-container {
     display: grid;
@@ -139,6 +140,8 @@ color: rgb(255, 255, 255);
     
   }
 
+/*GitHub button*/
+
 .btn{
   height: auto;
   border-radius: 10px;
@@ -163,7 +166,7 @@ color: rgb(255, 255, 255);
   color: rgb(255, 255, 255);
 }
 
-
+/*Media queries*/
 
 @media (max-width:600px) {
 
